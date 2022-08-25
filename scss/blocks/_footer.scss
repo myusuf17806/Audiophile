@@ -1,0 +1,108 @@
+footer{
+    width: 1440px;
+    background-color: $main-bg-black;
+}
+.footer-text{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 25px;
+color: #FFFFFF;
+width: 540px;
+padding-top: 36px;
+padding-bottom: 56px;
+}
+.footer-menu{
+    width: 500px;
+    justify-content: space-between;
+    display: flex;
+    list-style-type: none;
+}
+.footer-span{
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 25px;
+color: #FFFFFF;
+padding-top: 56px;
+margin-bottom: 48px;
+}
+.footer-top{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-menu-item-link{
+    text-decoration: none;
+    font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 25px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.icon-list{
+    width: 100px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-left: 1000px;
+    padding-bottom: 200px;
+}
+@media only screen and (max-width:768px){
+    .footer-top{
+        padding-top: 20px;
+        flex-direction: column;
+    }
+    .footer-menu{
+        width: 500px;
+        justify-content: space-between;
+        display: flex;
+        list-style-type: none;
+        margin-top: 32px;
+    }
+    .footer-text{
+        width: 689px;
+    }
+    .icon-list{
+        width: 100px;
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+        margin-left: 565px;
+        padding-bottom: 30px;
+    }
+}
+@media only screen and (max-width:375px){
+    .footer-top{
+        padding-top: 20px;
+        flex-direction: column;
+        margin-left: 100px;
+    }
+    .footer-menu{
+        width: 500px;
+        justify-content: space-between;
+        flex-direction: column;
+        list-style-type: none;
+        margin-top: 32px;
+    }
+    .footer-text{
+        width: 327px;
+        padding-left: 40px;
+    }
+    .icon-list{
+        width: 100px;
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+        margin-left: 565px;
+        padding-bottom: 30px;
+    }
+    .footer-span{
+        margin-left: 60px;
+    }
+}

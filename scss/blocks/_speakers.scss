@@ -1,0 +1,161 @@
+.speakers{
+    margin-bottom: 168px;
+}
+.speakers__ul{
+    display: flex;
+    
+    width: 1110px;
+    justify-content: space-between;
+    &__item{
+        position: relative;
+        list-style-type: none;
+        background: $main-bg-seashell;
+        border-radius: 8px;
+        width: 350px;
+        height: 204px;
+        &__link{
+           
+            text-decoration: none;
+          
+            &--heading{
+                padding-top: 110px;
+                padding-bottom: 15px;
+                color: $main-bg-black;
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 25px;
+                text-align: center;
+                letter-spacing: 1.28571px;
+                text-transform: uppercase;
+            }
+            &--span{
+                color: $main-bg-black;
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 13px;
+                line-height: 18px;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                padding-left: 140px;
+            }
+        }
+    }
+}
+.speakers__ul__item__link--img{
+    position: absolute;
+    left: 100px;
+    bottom: 120px;
+}
+@media only screen and (max-width:768px){
+    .speakers{
+        margin-bottom: 168px;
+    }
+    .speakers__ul{
+        display: flex;
+        width: 689px;
+        justify-content: start;
+        &__item{
+            position: relative;
+            list-style-type: none;
+            background: $main-bg-seashell;
+            border-radius: 8px;
+            width: 223px;
+            height: 165px;
+            margin-left: 60px;
+            &__link{
+               
+                text-decoration: none;
+              
+                &--heading{
+                    padding-top: 56px;
+                    padding-bottom: 17px;
+                    color: $main-bg-black;
+                    font-family: 'Manrope';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 25px;
+                    text-align: center;
+                    letter-spacing: 1.28571px;
+                    text-transform: uppercase;
+                }
+                &--span{
+                    color: $main-bg-black;
+                    font-family: 'Manrope';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 13px;
+                    line-height: 18px;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    padding-left: 60px;
+                }
+            }
+        }
+    }
+    .speakers__ul__item__link--img{
+        position: absolute;
+        left: 30px;
+        bottom: 120px;
+    }
+}
+@media only screen and (max-width:375px){
+    .speakers{
+        margin-bottom: 168px;
+    }
+    .speakers__ul{
+        margin-top: 480px;
+        flex-direction: column;
+        width: 689px;
+        justify-content: start;
+        &__item{
+            position: relative;
+            list-style-type: none;
+            background: $main-bg-seashell;
+            border-radius: 8px;
+            width: 327px;
+            height: 165px;
+            margin-left: 20px;
+            margin-bottom: 118px;
+            
+            &__link{
+               
+                text-decoration: none;
+              
+                &--heading{
+                    padding-top: 56px;
+                    padding-bottom: 17px;
+                    color: $main-bg-black;
+                    font-family: 'Manrope';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 25px;
+                    text-align: center;
+                    letter-spacing: 1.28571px;
+                    text-transform: uppercase;
+                }
+                &--span{
+                    color: $main-bg-black;
+                    font-family: 'Manrope';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 13px;
+                    line-height: 18px;
+                    letter-spacing: 1px;
+                    text-transform: uppercase;
+                    padding-left: 140px;
+                }
+            }
+        }
+    }
+    .speakers__ul__item__link--img{
+        position: absolute;
+        left: 100px;
+        bottom: 120px;
+    }
+
+}

@@ -1,0 +1,138 @@
+.hero{
+    background-color: $main-bg-cod-gray;
+    width: 1540px;
+    margin-bottom: 120px;
+    
+}
+.hero-wrapper{
+    display: flex;
+    background-color: $main-bg-cod-gray;
+width: 100%;
+height: 729px;
+.hero__content{
+
+    padding-top: 140px;
+display: inline;
+    &--small{
+       
+        font-family: 'Manrope';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 19px;
+letter-spacing: 10px;
+text-transform: uppercase;
+color: $main-bg-white;
+
+    }
+    &--title{
+        font-family: 'Manrope';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 58px;
+letter-spacing: 2px;
+text-transform: uppercase;
+width: 396px;
+color: $main-bg-white;
+    }
+    &--text{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 25px;
+        width: 349px;
+        color: $main-bg-white;
+        margin-bottom: 40px;
+    }
+    &--link{
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $main-bg-white;
+        padding: 15px 30px;
+        background:$main-bg-raw-sienna;
+    }
+}
+}
+.content-wrapper{
+    display: flex;
+}
+@media only screen and (max-width:768px){
+    .hero{
+        width: 768px;
+    }
+    .hero-img{
+        display: none;
+    }
+    .hero__content{
+        background-image: url(../../images/Bitmap6.png);
+        width: 768px;
+        height: 729px;
+        margin: 0 auto;
+    }
+    .hero__content--small{
+        margin-left: 270px;
+        text-align: center;
+    }
+    .hero__content--title{
+        margin-left: 180px;
+        text-align: center;
+    }
+    .hero__content--text{
+        margin-left: 210px;
+        text-align: center;
+    }
+    .hero__content--link{
+        margin-left: 295px;
+    }
+}
+@media only screen and (max-width:375px){
+    .hero{
+        width: 375px;
+        height: 411px;
+    }
+    .hero-img{
+        display: none;
+    }
+    .hero__content{
+        background-image: url(../../images/Bitmap7.png);
+        width: 325px;
+        height: 700px;
+        margin-left: 0 ;
+    }
+    .hero__content--small{
+    margin-left: 80px;
+    }
+    .hero__content--title{
+        margin-left: 0;
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: 1.28571px;
+        text-transform: uppercase;
+        width: 50px;
+    }
+    .hero__content--text{
+        margin-left: 0;
+        text-align: center;
+    }
+    .hero__content--link{
+        margin-left: 100px;
+    }
+}
+
+
+
+
+
+
+
